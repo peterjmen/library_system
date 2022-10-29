@@ -1,0 +1,10 @@
+debug/admin.o
+debug/main.o
+debug/mainwindow.o
+debug/member.o
+debug/window.o
+debug/qrc_images.o
+debug/moc_admin.o
+debug/moc_mainwindow.o
+debug/moc_member.o
+debug/moc_window.o

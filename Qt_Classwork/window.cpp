@@ -13,10 +13,10 @@ Window::Window(QWidget *parent)
 
     button = new QPushButton("text", this);
             //👆🔘                     👆parent to own window
-    vLayout-> addWidget(button, 0);
+    vLayout-> addWidget(button, 0); //0 stretches all way accross screen
 
     //need to connect signal to slot
-    connect(button, SIGNAL(clicked()), this, SLOT((buttonPressed)));
+    connect(button, SIGNAL(clicked()), this, SLOT(buttonPressed()));
             //👆🔘 button is sending   👆because getting function from this window
             //
 

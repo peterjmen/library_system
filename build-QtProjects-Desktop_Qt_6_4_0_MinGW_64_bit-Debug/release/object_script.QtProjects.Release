@@ -1,0 +1,10 @@
+release/admin.o
+release/main.o
+release/mainwindow.o
+release/member.o
+release/window.o
+release/qrc_images.o
+release/moc_admin.o
+release/moc_mainwindow.o
+release/moc_member.o
+release/moc_window.o
